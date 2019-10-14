@@ -1,0 +1,86 @@
+@-ms-viewport{
+    width: device-width;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* navbar */
+#navigation * {
+    color: white;
+  }
+
+.navbar {
+    background-color: #b83434;
+    height: 3em;
+}
+
+.navbar-nav.ml-auto{
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.navbar-nav > li > a:hover{
+    background-color:#924444;
+}
+
+.navbar-nav > li > a:focus{
+    background-color:#924444;
+}
+
+.navbar-nav > li > a:active{
+    background-color:#924444;
+}
+
+.navbar-toggler {
+    color:black;
+}
+
+.navbar-toggler-icon {
+    color:black;
+}
+
+#icon {
+    height: auto;
+    width: auto;
+    max-width: 2em;
+    background-color: #b83434;
+}
+
+/* introduction */
+.rounded-circle {
+    margin-top: 4em;
+    width: 25em;
+    height: 22.5em;
+}
+
+#introduction {
+    text-align: center;
+    padding: 0;
+}
+
+#header-name { 
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0em;
+    padding-top: .10em;
+}
+
+#secondary-titles {
+    font-size: 2em;
+    margin: .05em;
+}
+
+/* footers */
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 1.50em;
+    border-top:1px solid #ddd;
+ }
+ 
+ #footer-flex {
+     position: relative;
+ }
