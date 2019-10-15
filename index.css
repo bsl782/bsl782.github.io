@@ -16,11 +16,21 @@ body {
     color: rgb(245, 245, 245);
     height: 3rem;
     font-size: 1.5rem;
+    
   }
-
 .navbar {
     background-color: #b83434;
+    margin: 0;
+    padding: 0;
+    
 }
+@media (min-width: 0px) {
+    .navbar-brand
+        {
+            padding-left: 10px;
+            position: absolute;
+        }
+    }
 
 .navbar-nav.ml-auto{
     text-align: center;
@@ -31,6 +41,8 @@ body {
     background-color: #b83434;
     margin: 0;
     padding: 0;
+    text-align: center;
+
 }
 
 .navbar-nav > li > a:hover{
@@ -49,16 +61,14 @@ body {
 .rounded-circle {
     position: relative;
     margin-top: 4em;
-    width: 500px;
-    height: auto;
-    border:.15em solid #924444;
-
+    width: 100%;
+    height: 85%;
+    max-width: 25em;
+    border: 2px solid #924444;
 }
 
 #introduction {
     text-align: center;
-    padding: 0;
-    margin: 0;
 }
 
 #header-name { 
@@ -68,17 +78,66 @@ body {
     padding-top: .10em;
 }
 
-#secondary-titles {
+#swe-title {
     font-size: 2em;
     margin: .05em;
 }
 
-#resume-hellothere {
-    padding: 10em
+#oar-title {
+    font-size: 2em;
+    margin: .05em;
+}
+
+#hello-there {
+    margin-top: 5em;
+    margin-left: 6em;
+    margin-right: 6em;
+    font-size: 1.5em;
+}
+
+#resume-icon {
+    background-color: #b83434;
+    border: black;
+    color: white;
+    padding: .75em;
+    font-size: .75em;
+    cursor: pointer;
+  }
+
+#resume-icon:hover {
+    background-color: #924444;
 }
 
 /* footers */
-#bottom-icons {
+#bottom-email-icons {
+    width: 2.5em;
+    height: 2.5em;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+#bottom-github-icons {
+    width: 2.5em;
+    height: 2.5em;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+#bottom-linkedin-icons {
+    width: 2.5em;
+    height: 2.5em;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+#bottom-instagram-icons {
+    width: 2.5em;
+    height: 2.5em;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+#bottom-facebook-icons {
     width: 2.5em;
     height: 2.5em;
     margin-left: .5em;
@@ -86,13 +145,13 @@ body {
 }
 
 footer{
-   position: absolute;
+   position: relative;
    width: 100%;
    bottom: 0;
-   padding: 1.50em;
+   margin-top: 3em;
    border-top:1px solid #ddd;
 }
 
 #footer-flex {
-    position: relative;
+    padding: 1em;
 }

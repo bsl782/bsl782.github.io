@@ -2,28 +2,46 @@
     width: device-width;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Oswald', sans-serif;
+    background: rgb(245, 245, 245);
 }
 
 /* navbar */
 #navigation * {
-    color: white;
+    color: rgb(245, 245, 245);
+    height: 3rem;
+    font-size: 1.5rem;
+    
   }
-
 .navbar {
     background-color: #b83434;
-    height: 3em;
+    margin: 0;
+    padding: 0;
+    
 }
-
-.navbar-brand {
-    font-size: 1.25em;
-    color: rgb(245, 245, 245);
-}
+@media (min-width: 0px) {
+    .navbar-brand
+        {
+            padding-left: 10px;
+            position: absolute;
+        }
+    }
 
 .navbar-nav.ml-auto{
     text-align: center;
-    font-size: 1.25em;
+    font-size: 4.5rem;
+}
+
+#collapse_Navbar {
+    background-color: #b83434;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 .navbar-nav > li > a:hover{
@@ -38,54 +56,97 @@ body {
     background-color:#924444;
 }
 
-.navbar-toggler {
-    color:black;
-}
-
-.navbar-toggler-icon {
-    color:black;
-}
-
-#icon {
-    height: auto;
-    width: auto;
-    max-width: 2em;
-    background-color: #b83434;
-}
-
 /* introduction */
-.rounded-circle {
-    margin-top: 4em;
-    width: 25em;
-    height: 22.5em;
-}
-
-#introduction {
+#header-row { 
+    margin-top: 6em;
+    margin-left: 2em;
+    margin-right: 2em;
     text-align: center;
-    padding: 0;
 }
 
-#header-name { 
-    font-size: 4em;
+#about-me { 
+    font-size: 2.5em;
     font-weight: bold;
-    margin: 0em;
-    padding-top: .10em;
+    text-align: left;
 }
 
-#secondary-titles {
-    font-size: 2em;
-    margin: .05em;
+#about-me-body {
+    text-align: left;
+}
+
+#facts { 
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: left;
+}
+
+#facts-body {
+    text-align: left;
+}
+
+
+#about-me-col {
+    padding: 0;
+    text-align: center;
+}
+
+#aboutme-photo {
+    width: 85%;
+    height: 85%;
+    max-width: 15em;
+    max-height: 25em;
+    margin: 0;
+    padding: 0;
+    border:2px solid #924444;
+}
+
+#resume-icon:hover {
+    background-color: #924444;
 }
 
 /* footers */
+#bottom-email-icons {
+    width: 2.5em;
+    height: 2.5em;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+#bottom-github-icons {
+    width: 2.5em;
+    height: 2.5em;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+#bottom-linkedin-icons {
+    width: 2.5em;
+    height: 2.5em;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+#bottom-instagram-icons {
+    width: 2.5em;
+    height: 2.5em;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+#bottom-facebook-icons {
+    width: 2.5em;
+    height: 2.5em;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
 footer{
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 0;
-    padding: 1.50em;
     border-top:1px solid #ddd;
  }
  
  #footer-flex {
-     position: relative;
+     padding: 1em;
  }
