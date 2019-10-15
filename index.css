@@ -97,8 +97,8 @@ body {
 
 #resume-icon {
     background-color: #b83434;
-    border: black;
-    color: white;
+    border: 1px solid black;
+    color: rgb(245, 245, 245);
     padding: .75em;
     font-size: .75em;
     cursor: pointer;
