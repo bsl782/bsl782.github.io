@@ -1,7 +1,3 @@
-@-ms-viewport{
-    width: device-width;
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -57,51 +53,79 @@ body {
 }
 
 /* introduction */
-#header-row { 
+.row.no-gutters { 
     margin-top: 6em;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
     text-align: center;
 }
 
-#about-me { 
-    font-size: 2.5em;
+#fabflix-header { 
+    color: #b83434;
+    text-decoration: underline;
     font-weight: bold;
-    text-align: left;
-}
-
-#about-me-body {
-    text-align: left;
-}
-
-#facts { 
-    font-size: 1.75em;
-    font-weight: bold;
-    text-align: left;
-}
-
-#facts-body {
-    text-align: left;
-}
-
-
-#about-me-col {
-    padding: 0;
     text-align: center;
 }
 
-#aboutme-photo {
+#ff-mock {
+    background: rgb(245, 245, 245);
     width: 85%;
     height: 85%;
     max-width: 15em;
     max-height: 25em;
     margin: 0;
     padding: 0;
-    border:2px solid #924444;
 }
 
-#resume-icon:hover {
-    background-color: #924444;
+#search-header { 
+    color: #b83434;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+}
+
+#file-mock {
+    background: rgb(245, 245, 245);
+    width: 85%;
+    height: 85%;
+    max-width: 15em;
+    max-height: 25em;
+    margin: 0;
+    padding: 0;
+}
+
+#website-header { 
+    color: #b83434;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+}
+
+#website-mock {
+    background: rgb(245, 245, 245);
+    width: 85%;
+    height: 85%;
+    max-width: 15em;
+    max-height: 25em;
+    margin: 0;
+    padding: 0;
+}
+
+#on-the-house-header { 
+    color: #b83434;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+}
+
+#house-mock {
+    background: rgb(245, 245, 245);
+    width: 85%;
+    height: 85%;
+    max-width: 15em;
+    max-height: 25em;
+    margin: 0;
+    padding: 0;
 }
 
 /* footers */
@@ -144,6 +168,7 @@ footer{
     position: relative;
     width: 100%;
     bottom: 0;
+    margin-top: 3em;
     border-top:1px solid #ddd;
  }
  
