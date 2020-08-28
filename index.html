@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!--
+WRITTEN BY: Bruce Lee
+EMAIL: brucesl@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Bruce Lee">
+  <meta name="description" content="Bruce Lee's Personal Portfolio - Index Page">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- boot strap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <!-- google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+
+  <!-- css file-->
+  <link rel="stylesheet" type="text/css" href="index.css">
+
+  <title>Home</title>
+</head>
+
+<body>
+<!-- nav bar-->
+<div id="navigation">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+    <a class="navbar-brand" href= "index.html">
+        Bruce Lee
+    </a>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapse_Navbar" aria-controls="collapse_Navbar" aria-expanded="false" aria-label="Toggle navigation"> 
+      Menu
+    </button> 
+
+    <div class="collapse navbar-collapse" id="collapse_Navbar"> 
+      <ul class="navbar-nav ml-auto"> 
+        <li class = "nav-item">
+          <a class="nav-link" href="aboutme.html">About Me</a>
+        </li>
+      </ul>
+    </div> 
+  </nav>
+</div>
+
+<!-- my introduction and face -->
+<div class="container h-100" id = "introduction">
+  <div class="row justify-content-center">
+    <div class="col text-center">
+      <img src="images/me.jpg" class="rounded-circle" alt="Bruce's Personal Photo">
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col text-center">
+      <h1 id = "header-name">
+        Bruce Lee
+      </h1>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col text-center">
+      <h1 id = "swe-title">
+        Aspiring Software Engineer
+      </h1>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col text-center">
+      <h1 id = "oar-title">
+        UCI Varsity Oarsman
+      </h1>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col text-center">
+      <p id = "hello-there">
+        Hi there! My name is Bruce. I am currently converting man-hours to code and boat pushing at the 
+        Unversity of California, Irvine.
+      </p>
+    </div>
+  </div>
+
+  <div class="row no-gutters">
+      <div class="col-12">
+        <form action="BruceLeeResume.pdf">
+          <input type="submit" value="View Resume" id = "resume-icon"/>
+        </form>
+      </div>
+
+  </div>
+</div>
+
+<!-- footer icons for personal social media-->
+<footer>
+  <div class="d-flex justify-content-center" id = footer-flex>
+    <a href = "mailto:brucelee92371@gmail.com">
+        <img src="images/email.svg" id = "bottom-email-icons" alt="My Personal Email"></a>
+    <a href = "https://github.com/bsl782">
+      <img src="images/github.svg" id = "bottom-github-icons" alt="My Personal Github"></a>
+    <a href = "https://www.linkedin.com/in/bsl782/">
+      <img src="images/linkedin.svg" id = "bottom-linkedin-icons" alt="My Personal LinkedIn"></a>
+    <a href = "https://www.instagram.com/bsl782/">
+      <img src="images/instagram.svg" id = "bottom-instagram-icons" alt="My Personal Instagram"></a>
+    <a href = "https://www.facebook.com/bsl782">
+      <img src="images/facebook.svg" id = "bottom-facebook-icons" alt="My Personal Facebook"></a>
+  </div>
+</footer>
+</body>
+
+</html>
